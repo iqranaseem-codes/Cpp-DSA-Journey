@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -12,7 +13,7 @@ int main() {
     double pro =num1*num2;
     double div =num1/num2;
     double percentage =div*100;
-    int mod = ((int) num1 % (int) num2 );
+    double mod = fmod(num1,num2);
 
     cout << "Sum = " << sum << endl;
     cout << "Subtraction = " << sub << endl;

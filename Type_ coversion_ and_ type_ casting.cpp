@@ -4,14 +4,14 @@ using namespace std;
 int main()
 {
     int age=18;
-    float value1= age;
+    float value1= age; //implicit -> conversion
     char star='*';
     int value2= star;
 
-    cout << value1 << endl << value2 << endl;
+    cout << value1 << endl << value2 << endl; 
 
     float PI= 3.14;
-    int value3= (int)PI;
+    int value3= (int)PI;  //explicit -> casting
     double price= 10.971021;
     int value4=(int)price;
 
